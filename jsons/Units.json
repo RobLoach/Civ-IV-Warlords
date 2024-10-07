@@ -1,0 +1,42 @@
+// https://civilization.fandom.com/wiki/Civilization_IV:_Warlords#Units
+[
+	{
+		"name": "Trebuchet",
+		"unitType": "Siege",
+		"movement": 1,
+		"strength": 4,
+		"rangedStrength": 4,
+		"cost": 80,
+		"requiredTech": "Engineering",
+		"upgradesTo": "Cannon",
+		"uniques": [
+			"[+100]% Strength <vs cities>",
+			"No defensive terrain bonus",
+			// Maximum of 75% damage to enemy
+			// Causes collateral damage
+			// Can bombard city defenses (-16%/turn)
+			// Immune to collateral damage from other Siege Units
+			// Cannot attack amphibiously
+			"Must set up to ranged attack",
+			"[-1] Sight"
+		],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Trireme",
+		"unitType": "Melee Water",
+		"movement": 2,
+		"strength": 2,
+		"cost": 50,
+		"requiredTech": "Metal Casting",
+		"uniques": [
+			"Only available <after discovering [Sailing]>",
+			"Cannot enter ocean tiles",
+			"[+50]% Strength <vs [Galley] units>",
+			"Can upgrade to [Frigate]",
+			"Can upgrade to [Caravel]"
+		],
+		"upgradesTo": "Frigate",
+		"attackSound": "nonmetalhit"
+	}
+]
