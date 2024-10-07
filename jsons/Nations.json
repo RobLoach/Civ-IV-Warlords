@@ -1,0 +1,97 @@
+// https://civilization.fandom.com/wiki/Civilization_IV:_Warlords#Civilizations
+
+[
+	{
+		"name": "Carthaginian",
+		"leaderName": "Hannibal",
+
+		"outerColor": [218, 103, 9],
+		"innerColor": [244, 241, 246],
+		"uniques": ["Starts with [Fishing]", "Starts with [Mining]"],
+		"cities": [
+			"Carthage", "Utica", "Hadrumetum", "Hippo", "Kerkouane", "Leptis", "Thapsus", "Sicca", "Thaenae",
+			"Tacape", "Sabratha", "Oea", "Malaca", "Abdera", "Sexi", "Baria", "Carmona", "Onoba", "Carthago Novo",
+			"Ibrossim", "Sarim Batim", "Tipasa", "Iol", "Siga", "Rusaddir", "Tingis", "Lixus", "Mogador", "Zis",
+			"Motya", "Solus", "Lilybaeum", "Karalis", "Nora", "Bithia", "Sulcis", "Tharros", "Olbia", "Melita",
+			"Kossyra", "Zama"
+		]
+	},
+
+	{
+		"name": "Celtic",
+		"leaderName": "Boudica",
+
+		"outerColor": [243, 192, 16],
+		"innerColor": [0,0,0],
+		"uniques": ["Starts with [Mysticism]", "Starts with [Hunting]"],
+		"cities": [
+			"Bibracte", "Vienne", "Tolosa", "Gergovia", "Camulodunum", "Verlamion", "Durnovaria", "Isca",
+			"Durocortorum", "Bagacum", "Nemetocenna", "Calleva", "Venta", "Isurium", "Ratae", "Lutetia",
+			"Entremont", "Burdigala", "Nemausus", "Samarobriva", "Brixia", "Mediolanum", "Cremona", "Taurasia",
+			"Sinigaglia", "Noviomagus", "Durovernum", "Luguvalio", "Lindinis", "Okilis", "Numantia", "Tiernes",
+			"Botorrita", "Moridunum", "Tara", "Eblana", "Alesia", "Andematunum", "Ubiorum", "Geneva", "Vindobona",
+			"Pisonium", "Acquincum", "Tylis", "Ancyra"
+		]
+	},
+
+	{
+		"name": "Korea",
+		"leaderName": "Wang Kon",
+
+		"outerColor": [70, 106, 250],
+		"innerColor": [255,255,255],
+		"uniques": ["Starts with [Mysticism]", "Starts with [Mining]"],
+		"cities": [
+			"Seoul", "P'yongyang", "Wonsan", "Pusan", "Namp'o", "Cheju", "Hyangsan", "Ulsan", "Inch'on",
+			"P'yongsong", "Taejon", "Paegam", "Manp'o", "Kaesong", "Chonju", "Sariwon", "Suwon", "Haeju",
+			"Taegu", "Chinje", "Tokch'on", "Ch'ongfu", "Taegwon", "Sokch'o", "Hamhung", "Iri", "Huich'on",
+			"Namwon", "Kumgang", "Oijongbu"
+		]
+	},
+
+	{
+		"name": "Ottoman",
+		"leaderName": "Mehmed II",
+
+		"outerColor": [7, 96, 1],
+		"innerColor": [234, 233, 29],
+		"uniques": ["Starts with [The Wheel]", "Starts with [Agriculture]"],
+		"cities": [
+			"Istanbul", "Edirne", "Ankara", "Bursa", "Konya", "Samsun", "Gaziantep", "Diyarbakir", "Izmir",
+			"Kayseri", "Malatya", "Marsin", "Antalya", "Zonguldak", "Denizli", "Oidu", "Mugla", "Eskisehir",
+			"Inebolu", "Sinop", "Adana", "Tarsus", "Artuin", "Bodrum", "Eregli", "Silifke", "Sivas", "Amasya",
+			"Marmaris", "Oijongbu", "Trabzon", "Erzurum", "Urfa", "Izmit", "Afyon", "Bitlis"
+		]
+	},
+
+	{
+		"name": "Viking",
+		"leaderName": "Ragnar",
+
+		"outerColor": [134, 108, 201],
+		"innerColor": [31, 24, 42],
+		"uniques": ["Starts with [Fishing]", "Starts with [Hunting]"],
+		"cities": [
+			"Nidaros", "Uppsala", "Haithabu", "Birka", "Bjorgvin", "Jelling", "Roskilde", "Tonsberg", "Sigtuna",
+			"Lodose", "Odense", "Oslo", "Ribe", "Lindholm", "Vasteras", "Aarhus", "Lund", "Kaupang", "Reykjavik",
+			"Thingvellir", "Jorvik", "Lincoln", "Deoraby", "Stamford", "Dyflin", "Vadrejford", "Limerick", "Rowane",
+			"Konugard", "Holmgard", "Aldeigjuborg", "Kirkjuvagr", "Tynwald", "Leirvik", "Tinganes", "Kirkjubour",
+			"Brattahlid", "Vinland", "Thunderfall"
+		]
+	},
+
+	{
+		"name": "Zulu",
+		"leaderName": "Shaka",
+
+		"outerColor": [255,255,0],
+		"innerColor": [0,0,0],
+		"uniques": ["Starts with [Agriculture]", "Starts with [Hunting]"],
+		"cities": [
+			"Ulundi", "Umgungundlovu", "Nobamba", "Bulawayo", "Kwadukuza", "Nongoma", "Ondini", "Nodwengu", "Ndondakusuka",
+			"Babanango", "Khangela", "Kwahlomendlini", "Hlobane", "Ethekwini", "Mlambongwenya", "Eziqwaqweni", "Emangweni",
+			"Isiphezi", "Masotsheni", "Mtunzini", "Nyakamubi", "Dumazulu", "Hlatikulu", "Mthonjaneni", "Empangeni", "Pongola",
+			"Tungela", "Kwamashu", "Ingwavuma", "Hluhluwe", "Mtubatuba", "Mhlahlandlela", "Mthatha", "Maseru", "Lobamba", "Qunu"
+		]
+	}
+]
