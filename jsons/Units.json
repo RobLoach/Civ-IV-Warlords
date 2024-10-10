@@ -21,22 +21,5 @@
 			"[-1] Sight"
 		],
 		"attackSound": "throw"
-	},
-	{
-		"name": "Trireme",
-		"unitType": "Melee Water",
-		"movement": 2,
-		"strength": 2,
-		"cost": 50,
-		"requiredTech": "Metal Casting",
-		"uniques": [
-			"Only available <after discovering [Sailing]>",
-			"Cannot enter ocean tiles",
-			"[+50]% Strength <vs [Galley] units>",
-			"Can upgrade to [Frigate]",
-			"Can upgrade to [Caravel]"
-		],
-		"upgradesTo": "Frigate",
-		"attackSound": "nonmetalhit"
 	}
 ]
