@@ -2,7 +2,7 @@
 
 [
 	{
-		"name": "Carthaginian",
+		"name": "Carthaginian", // TODO: Missing Icon
 		"leaderName": "Hannibal",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Carthage people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
@@ -33,7 +33,7 @@
 	},
 
 	{
-		"name": "Celtic",
+		"name": "Celtic", // TODO: Missing Icon
 		"leaderName": "Boudica",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Celtic people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
@@ -97,7 +97,7 @@
 	},
 
 	{
-		"name": "Ottoman",
+		"name": "Ottoman", // TODO: Missing Icon
 		"leaderName": "Mehmed II",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Ottoman people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
@@ -129,7 +129,7 @@
 	},
 
 	{
-		"name": "Viking",
+		"name": "Viking", // TODO: Missing Icon
 		"leaderName": "Ragnar",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Viking people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
@@ -160,7 +160,7 @@
 	},
 
 	{
-		"name": "Zulu",
+		"name": "Zulu", // TODO: Missing Icon
 		"leaderName": "Shaka",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Zulu people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
