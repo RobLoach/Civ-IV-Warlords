@@ -134,7 +134,7 @@
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Viking people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
-		"outerColor": [134, 108, 201],
+		"outerColor": [180, 152, 255],
 		"innerColor": [31, 24, 42],
 		"uniques": [
 			"Starts with [Fishing]",

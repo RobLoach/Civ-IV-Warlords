@@ -1,4 +1,3 @@
-// TODO: Add the Unique Units
 // https://civilization.fandom.com/wiki/Civilization_IV:_Warlords#Units
 [
 	{
@@ -50,7 +49,7 @@
 	},
 
 	{
-		"name": "Gallic Warrior",
+		"name": "Gallic Warrior", // TODO: Add Icon
 		"unitType": "Sword",
 		"uniqueTo": "Celtic",
 		"replaces": "Swordsman",
@@ -72,7 +71,7 @@
 		"name": "Hwacha",
 		"unitType": "Siege",
 		"uniqueTo": "Korea",
-		"replaces": "Swordsman",
+		"replaces": "Catapult",
 		"strength": 5,
 		"movement": 1,
 		"cost": 50,

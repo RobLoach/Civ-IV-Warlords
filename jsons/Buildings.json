@@ -79,7 +79,7 @@
 	 */
 
 	{
-		"name": "Cothon",
+		"name": "Cothon", // TODO: Add Cothon Icon
 		"uniqueTo": "Carthage",
 		"replaces": "Harbor",
 		"cost": 100,
@@ -164,7 +164,7 @@
 	},
 
 	{
-		"name": "Ikhanda",
+		"name": "Ikhanda", // TODO: Add Ikhanda Icon
 		"uniqueTo": "Zulu",
 		"replaces": "Barracks",
 		"cost": 60,
