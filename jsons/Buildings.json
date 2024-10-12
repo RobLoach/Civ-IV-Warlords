@@ -1,6 +1,10 @@
 // TODO: Add the Unique Buildings
 // https://civilization.fandom.com/wiki/Civilization_IV:_Warlords
 [
+	/**
+	 * Wonders
+	 */
+
 	{
 		"name": "Great Wall",
 		"isWonder": true,
@@ -10,30 +14,14 @@
 		"uniques": [
 			"[-50]% production cost <with [Stone]>",
 			"Only available <if starting in the [Ancient era]>",
-			"[Great General] is earned [+20]% faster",
+			"[Great General] is earned [+100]% faster",
 			"Notified of new Barbarian encampments" // Prevents barbarians from entering your borders
 		],
 		"requiredTech": "Masonry"
 	},
 
 	{
-		"name": "University of Sankore",
-		"isWonder": true,
-		"culture": 8,
-		"cost": 550,
-		"greatPersonPoints": {"Great Scientist": 2},
-		"uniques": [
-			"[-50]% production cost <with [Stone]>",
-			"Obsolete with [Computers]",
-			// Only available in Renaissance and earlier starts.
-			"[+2 Science] from all [Temple] buildings",
-			"[+2 Science] from all [Monastery] buildings"
-		],
-		"requiredTech": "Paper"
-	},
-
-	{
-		"name": "University of Sankore",
+		"name": "Temple of Artemis",
 		"isWonder": true,
 		"culture": 8,
 		"cost": 350,
@@ -47,10 +35,31 @@
 			"[-50]% production cost <with [Marble]>",
 			"Obsolete with [Scientific Method]",
 			// Only available in Classical and earlier starts.
-			"[+1 Gold] from each Trade Route" // +100% Trade route yield in this city
+			"[+1 Gold] from each Trade Route" // TODO: +100% Trade route yield in this city
 		],
 		"requiredTech": "Polytheism"
 	},
+
+	{
+		"name": "University of Sankore",
+		"isWonder": true,
+		"culture": 8,
+		"cost": 550,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"uniques": [
+			"[-50]% production cost <with [Stone]>",
+			"Obsolete with [Computers]",
+			// Only available in Renaissance and earlier starts.
+			"[+2 Science] from all [Temple] buildings",
+			"[+2 Science] from all [Monastery] buildings",
+			"[+2 Science] from all [Cathedral] buildings"
+		],
+		"requiredTech": "Paper"
+	},
+
+	/**
+	 * Special Buildings
+	 */
 
 	{
 		"name": "Military Academy",
@@ -62,6 +71,109 @@
 			"Cannot be purchased",
 			"Cannot be hurried",
 			"[+50]% Production when constructing [Military] units [in this city]"
+		]
+	},
+
+	/**
+	 * Unique Buildings
+	 */
+
+	{
+		"name": "Cothon",
+		"uniqueTo": "Carthage",
+		"replaces": "Harbor",
+		"cost": 100,
+		"uniques": [
+			// +1 Trade Route
+			"[+50]% [Gold] from Trade Routes",
+            "Provides [1] [Health] <in this city> <with [Clam]>",
+            "Provides [1] [Health] <in this city> <with [Crab]>",
+            "Provides [1] [Health] <in this city> <with [Fish]>",
+			"Only available <in [Coastal] cities>"
+		],
+		"requiredTech": "Compass"
+	},
+
+	{
+		"name": "Dun",
+		"uniqueTo": "Celtic",
+		"replaces": "Walls",
+		"cost": 50,
+		"uniques": [
+			// +50% defense Defense (except vs. Gunpowder Units)
+			"[+50]% Strength for cities <in this city> <vs [Sword] units>",
+			"[+50]% Strength for cities <in this city> <vs [Archery] units>",
+			"[+50]% Strength for cities <in this city> <vs [Mounted] units>",
+			"[+50]% Strength for cities <in this city> <vs [Armored] units>",
+			"[+50]% Strength for cities <in this city> <vs [Air] units>",
+			"[+50]% Strength for cities <in this city> <vs [Water] units>",
+			"[+50]% Strength for cities <in this city> <vs [Siege] units>",
+
+			// TODO: -50% damage from bombard (except from Gunpowder units)
+
+			"[-50]% production cost <with [Stone]>",
+			"All newly-trained [Land] units [in this city] receive the [Guerrilla I] promotion"
+		],
+		"requiredTech": "Masonry"
+	},
+
+	{
+		"name": "Seowon",
+		"uniqueTo": "Korea",
+		"replaces": "University",
+		"cost": 200,
+		"culture": 3,
+		"percentStatBonus": {"science": 35},
+		"uniques": [
+			// Double production speed with Philosophical
+			"[-50]% production cost <for [Korean] Civilizations>"
+		],
+		"requiredBuilding": "Library",
+		"requiredTech": "Education"
+	},
+
+	{
+		"name": "Hammam",
+		"uniqueTo": "Ottoman",
+		"replaces": "Aqueduct",
+		"cost": 100,
+		"happiness": 2,
+		"requiredTech": "Mathematics",
+		"percentStatBonus": {"science": 35},
+		"uniques": [
+			"Only available <after discovering [Masonry]>",
+			"Provides [2] [Health] <in this city>"
+		]
+	},
+
+	{
+		"name": "Trading Post",
+		"uniqueTo": "Viking",
+		"replaces": "Lighthouse",
+		"cost": 60,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"All newly-trained [Melee Water] units [in this city] receive the [Navigation I] promotion",
+			"All newly-trained [Ranged Water] units [in this city] receive the [Navigation I] promotion",
+			"All newly-trained [Submarine] units [in this city] receive the [Navigation I] promotion",
+			"[-50]% production cost <for [Viking] Civilizations>",
+			"Only available <in [Coastal] cities>",
+			"[+1 Food] <in [Water] tiles>"
+			// TODO: Available for free on Industrial and later starts
+		]
+	},
+
+	{
+		"name": "Ikhanda",
+		"uniqueTo": "Zulu",
+		"replaces": "Barracks",
+		"cost": 60,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"[-50]% production cost <for [Zulu] Civilizations>",
+			"New [Land] units start with [3] Experience [in this city]",
+			"[+2 Happiness] <after adopting [Nationhood]>",
+			"[-20]% maintenance costs <in this city>"
 		]
 	}
 ]

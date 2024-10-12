@@ -2,10 +2,10 @@
 
 [
 	{
-		"name": "Carthaginian", // TODO: Missing Icon
+		"name": "Carthage",
 		"leaderName": "Hannibal",
 
-		"startIntroPart1": "The sun rises. Since time immemorial, the Carthage people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
+		"startIntroPart1": "The sun rises. Since time immemorial, the Carthaginian people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
 		"outerColor": [218, 103, 9],
 		"innerColor": [244, 241, 246],
@@ -33,7 +33,7 @@
 	},
 
 	{
-		"name": "Celtic", // TODO: Missing Icon
+		"name": "Celtic",
 		"leaderName": "Boudica",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Celtic people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
@@ -97,7 +97,7 @@
 	},
 
 	{
-		"name": "Ottoman", // TODO: Missing Icon
+		"name": "Ottoman",
 		"leaderName": "Mehmed II",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Ottoman people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
@@ -129,7 +129,7 @@
 	},
 
 	{
-		"name": "Viking", // TODO: Missing Icon
+		"name": "Viking",
 		"leaderName": "Ragnar",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Viking people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
@@ -160,7 +160,7 @@
 	},
 
 	{
-		"name": "Zulu", // TODO: Missing Icon
+		"name": "Zulu",
 		"leaderName": "Shaka",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Zulu people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",

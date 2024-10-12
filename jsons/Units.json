@@ -22,5 +22,127 @@
 			"[-1] Sight"
 		],
 		"attackSound": "throw"
+	},
+
+	{
+		"name": "Numidian Cavalry",
+		"unitType": "Mounted",
+		"uniqueTo": "Carthage",
+		"replaces": "Horse Archer",
+		"movement": 2,
+		"strength": 5,
+		"cost": 50,
+		"requiredResource": "Horses",
+		"requiredTech": "Horseback Riding",
+		"uniques": [
+			"Only available <after discovering [Archery]>",
+			"Can upgrade to [Knight]",
+			// Immune to first strikes
+			"No defensive terrain bonus",
+			"Withdraws before melee combat <with [20]% chance>",
+			"[+50]% Strength <vs [Melee] units> <when attacking>",
+			"[+50]% Strength <vs [Catapults] units> <when attacking>",
+			"[+50]% Strength <vs [Trebuchets] units> <when attacking>",
+			"[+20]% to Flank Attack bonuses <vs [Catapults] units>" // Flank attack vs Catapults/Trebuchets
+			"[+20]% to Flank Attack bonuses <vs [Trebuchets] units>" // Flank attack vs Catapults/Trebuchets
+		],
+		"attackSound": "horse"
+	},
+
+	{
+		"name": "Gallic Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Celtic",
+		"replaces": "Swordsman",
+		"strength": 6,
+		"movement": 1,
+		"cost": 40,
+		"requiredResource": "Copper",
+		"requiredTech": "Iron Working",
+		"uniques": [
+			"Consumes [1] [Iron]",
+			"Can upgrade to [Maceman]",
+			"[+10]% Strength <vs cities> <when attacking>"
+		],
+		"promotions": ["Guerrilla I"],
+		"attackSound": "nonmetalhit"
+	},
+
+	{
+		"name": "Hwacha",
+		"unitType": "Siege",
+		"uniqueTo": "Korea",
+		"replaces": "Swordsman",
+		"strength": 5,
+		"movement": 1,
+		"cost": 50,
+		"requiredTech": "Construction",
+		"uniques": [
+			"[+50]% Strength <vs [Sword] units>",
+			"Can upgrade to [Cannon]",
+			"No defensive terrain bonus",
+			// Causes collateral damage
+			"[+16]% Strength <vs cities> <when attacking>", // Can bombard city defenses (-8%/turn)
+			"Must set up to ranged attack",
+			"Cannot attack <in [Water] tiles>" // Cannot attack amphibiously
+		],
+		"attackSound": "nonmetalhit"
+	},
+
+	{
+		"name": "Janissary",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Ottoman",
+		"replaces": "Musketman",
+		"strength": 9,
+		"movement": 1,
+		"cost": 80,
+		"requiredTech": "Construction",
+		"uniques": [
+			"Can upgrade to [Rifleman]",
+			"[+25]% Strength <vs [Archery] units>",
+			"[+25]% Strength <vs [Sword] units>",
+			"[+25]% Strength <vs [Mounted] units>"
+		],
+		"attackSound": "nonmetalhit"
+	},
+
+	{
+		"name": "Berserker",
+		"unitType": "Sword",
+		"uniqueTo": "Viking",
+		"replaces": "Musketman",
+		"strength": 8,
+		"movement": 1,
+		"cost": 70,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Only available <after discovering [Machinery]>",
+			"Can upgrade to [Rifleman]",
+			"[+25]% Strength <vs [Sword] units>",
+			"[+100]% Strength <vs cities>"
+		],
+		"promotions": ["Amphibious"],
+		"attackSound": "nonmetalhit"
+	},
+
+	{
+		"name": "Impi",
+		"unitType": "Sword",
+		"uniqueTo": "Zulu",
+		"replaces": "Spearman",
+		"strength": 4,
+		"movement": 2,
+		"cost": 35,
+		"requiredTech": "Hunting",
+		"requiredResource": "Copper",
+		"uniques": [
+			"Can upgrade to [Pikeman]",
+			"[+100]% Strength <vs [Mounted] units>",
+			"Consumes [1] [Iron]"
+		],
+		"promotions": ["Mobility"],
+		"attackSound": "nonmetalhit"
 	}
+
 ]
