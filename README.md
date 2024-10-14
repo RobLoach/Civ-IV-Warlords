@@ -7,10 +7,11 @@
 1. Open Unciv
 2. Visit Mods
 3. Search for "Civ IV"
-4. Select "Civ IV Warlords" and download it
-5. Start a new game
-6. Select the "Civ IV" Ruleset
-7. Enable the "Civ IV Warlords" mod in Advanced Settings
+4. Select Civ IV and download it
+5. Select Civ IV Warlords and download it
+6. Start a new game
+7. Select the "Civ IV" Ruleset
+8. Enable the "Civ IV Warlords" mod in Advanced Settings
 
 ## Credits
 
