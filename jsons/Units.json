@@ -49,7 +49,7 @@
 	},
 
 	{
-		"name": "Gallic Warrior", // TODO: Add Icon
+		"name": "Gallic Warrior",
 		"unitType": "Sword",
 		"uniqueTo": "Celtic",
 		"replaces": "Swordsman",

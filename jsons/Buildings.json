@@ -4,12 +4,12 @@
 	// Warlords wonders are brought into the base Civ IV mod for integration points.
 
 	{
-		"name": "Cothon", // TODO: Add Cothon Icon
+		"name": "Cothon",
 		"uniqueTo": "Carthage",
 		"replaces": "Harbor",
 		"cost": 100,
 		"uniques": [
-			// +1 Trade Route
+			// TODO: +1 Trade Route
 			"[+50]% [Gold] from Trade Routes",
             "Provides [1] [Health] <in this city> <with [Clam]>",
             "Provides [1] [Health] <in this city> <with [Crab]>",
@@ -83,13 +83,16 @@
 			"All newly-trained [Submarine] units [in this city] receive the [Navigation I] promotion",
 			"[-50]% production cost <for [Viking] Civilizations>",
 			"Only available <in [Coastal] cities>",
-			"[+1 Food] <in [Water] tiles>"
-			// TODO: Available for free on Industrial and later starts
+			"[+1 Food] <in [Water] tiles>",
+			// Available for free on Industrial and later starts
+			"[-100]% production cost <if starting in the [Industrial era]>",
+			"[-100]% production cost <if starting in the [Modern era]>",
+			"[-100]% production cost <if starting in the [Future era]>"
 		]
 	},
 
 	{
-		"name": "Ikhanda", // TODO: Add Ikhanda Icon
+		"name": "Ikhanda",
 		"uniqueTo": "Zulu",
 		"replaces": "Barracks",
 		"cost": 60,
