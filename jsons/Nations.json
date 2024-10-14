@@ -1,5 +1,85 @@
 // https://civilization.fandom.com/wiki/Civilization_IV:_Warlords#Civilizations
 
+/*
+Diplomacy Template.
+Sid Meier's Civilization IV/Assets/XML/Text/CIV4DiplomacyText.xml
+Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlords_Diplomacy.xml
+
+// Diplomacy
+"defeated": "The ______ Civilization has been destroyed!!!",
+
+// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+"introduction": "",
+
+// AI_DIPLO_DECLARE_WAR_1: This world isn't big enough for the two of us!
+// AI_DIPLO_DECLARE_WAR_2: We have suffered your insolence for long enough!
+// AI_DIPLO_DECLARE_WAR_3: Prepare to meet your doom!
+// AI_DIPLO_DECLARE_WAR_4: Now you shall pay for your many insults.
+// AI_DIPLO_DECLARE_WAR_5: The time for talking is over! We shall shall settle this on the field of battle!
+// AI_DIPLO_DECLARE_WAR_6: Soon my numberless minions shall destroy you all!
+// AI_DIPLO_DECLARE_WAR_7: Time to die.
+// AI_DIPLO_DECLARE_WAR_8: Fool! Now we shall destroy you!
+// AI_DIPLO_DECLARE_WAR_9: I suppose you realize, this means war.
+// AI_DIPLO_DECLARE_WAR_10: We've has had enough of your treachery and deceit! Now you must pay!
+// USER_DIPLO_WAR_1: Your head would look good on the end of a pole.
+"declaringWar": "",
+
+// AI_DIPLO_HELP_REFUSED_EQUAL_1: We shall remember this.
+// AI_DIPLO_HELP_REFUSED_EQUAL_2: How shortsighted of you.
+// AI_DIPLO_HELP_REFUSED_EQUAL_3: That's not very nice of you.
+// AI_DIPLO_HELP_REFUSED_EQUAL_4: We'll remember this
+// AI_DIPLO_HELP_REFUSED_EQUAL_5: You foolish person.
+// AI_DIPLO_HELP_REFUSED_EQUAL_6: I expected better of you.
+// AI_DIPLO_HELP_REFUSED_STRONGER_1: I hope you don't come to regret this.
+// AI_DIPLO_HELP_REFUSED_STRONGER_2: Very well. On your own head be it.
+// AI_DIPLO_HELP_REFUSED_STRONGER_3: As you will.
+// AI_DIPLO_HELP_REFUSED_STRONGER_4: Remember, what goes around comes around...
+// AI_DIPLO_HELP_REFUSED_STRONGER_5: Fine. See if we help you out when you need it.
+// AI_DIPLO_HELP_REFUSED_STRONGER_6: That's too bad. For the both of us, I fear.
+// USER_DIPLO_WAR_RESPONSE_1: So it be.
+"attacked": "",
+
+// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+// AI_DIPLO_GREETINGS_ATT_FR_1: Hello. What is it that you wish to discuss?
+// AI_DIPLO_GREETINGS_ATT_FR_3: Greetings. How may we be of assistance?
+// AI_DIPLO_GREETINGS_ATT_FR_4: Welcome, friend. How may we be of assistance?
+// AI_DIPLO_GREETINGS_ATT_FR_5: Hello again!
+// AI_DIPLO_GREETINGS_ATT_FR_6: Good day to you.
+// AI_DIPLO_GREETINGS_ATT_FR_7: So what's going on?
+// AI_DIPLO_GREETINGS_ATT_FR_8: Hello. What can I do for you?
+// AI_DIPLO_GREETINGS_ATT_FR_9: What's on your mind?
+// AI_DIPLO_GREETINGS_ATT_FR_10: To what do I owe the pleasure of your company
+"neutralHello": "",
+
+// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+// AI_DIPLO_GREETINGS_ATT_FUR_3: Well? Get on with it!
+// AI_DIPLO_GREETINGS_ATT_FUR_4: What do YOU want?
+// AI_DIPLO_GREETINGS_ATT_FUR_5: Let's hear it.
+// AI_DIPLO_GREETINGS_ATT_FUR_6: What is it this time?
+// AI_DIPLO_GREETINGS_ATT_FUR_7: My time is valuable. What do you want?
+// AI_DIPLO_GREETINGS_ATT_FUR_8: Do not make me angry. You wouldn't like me when I'm angry.
+// AI_DIPLO_GREETINGS_ATT_FUR_10: Speak your piece - I haven't got all day.
+// AI_DIPLO_GREETINGS_ATT_FUR_11: Are you still around? I thought somebody wiped out your puny civilization years ago.
+// AI_DIPLO_GREETINGS_ATT_FUR_12: Oh, it's you. Now my day is complete.
+"hateHello": "",
+
+// USER_DIPLO_PROPOSAL_1: We would like to make a trade proposal.
+// USER_DIPLO_COMPLETE_DEAL_1: What would make this deal work?
+// USER_DIPLO_FISH_FOR_DEAL_1: What will you give me for this?
+// AI_DIPLO_FR_OFFER_DEAL_1: Greetings! What do you think of this deal?
+// AI_DIPLO_FR_OFFER_DEAL_2: Our peace-loving people seek a fair trade with you. How about it?
+// AI_DIPLO_FR_OFFER_DEAL_3: How does this sound to you?
+// AI_DIPLO_FR_OFFER_DEAL_4: What do you think of this deal?
+// AI_DIPLO_FR_OFFER_DEAL_5: My friend, can I tempt you with this offer?
+// AI_DIPLO_FR_OFFER_DEAL_6: Let's make a deal!
+// AI_DIPLO_FUR_OFFER_DEAL_1: I'm making you an offer you can't refuse.
+// AI_DIPLO_FUR_OFFER_DEAL_2: Show some intelligence for a change. Accept this deal.
+// AI_DIPLO_FUR_OFFER_DEAL_3: We are offering you this trade. I suggest you take it.
+// AI_DIPLO_FUR_OFFER_DEAL_4: Here's our offer. Take it or leave it.
+// AI_DIPLO_FUR_OFFER_DEAL_6: Here's the deal
+"tradeRequest": ""
+*/
+
 [
 	{
 		"name": "Carthage",
@@ -29,12 +109,33 @@
 			"Ibrossim", "Sarim Batim", "Tipasa", "Iol", "Siga", "Rusaddir", "Tingis", "Lixus", "Mogador", "Zis",
 			"Motya", "Solus", "Lilybaeum", "Karalis", "Nora", "Bithia", "Sulcis", "Tharros", "Olbia", "Melita",
 			"Kossyra", "Zama"
-		]
+		],
+
+		// Diplomacy
+		"defeated": "The Carthage Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "The glorious Carthaginian people welcome\nyour cute little civilization!",
+
+		// AI_DIPLO_DECLARE_WAR_1: This world isn't big enough for the two of us!
+		"declaringWar": "This world isn't big enough for the two of us!",
+
+		// AI_DIPLO_HELP_REFUSED_STRONGER_2: Very well. On your own head be it.
+		"attacked": "Very well. On your own head be it.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "So you have come? Excellent.\nIt always gives me pleasure to speak with one who is almost my equal.",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "This had better be good. I have no time for nonsense",
+
+		// AI_DIPLO_FR_OFFER_DEAL_6: Let's make a deal!
+		"tradeRequest": "Let's make a deal!"
 	},
 
 	{
 		"name": "Celtic",
-		"leaderName": "Boudica",
+		"leaderName": "Brennus",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Celtic people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -61,7 +162,28 @@
 			"Sinigaglia", "Noviomagus", "Durovernum", "Luguvalio", "Lindinis", "Okilis", "Numantia", "Tiernes",
 			"Botorrita", "Moridunum", "Tara", "Eblana", "Alesia", "Andematunum", "Ubiorum", "Geneva", "Vindobona",
 			"Pisonium", "Acquincum", "Tylis", "Ancyra"
-		]
+		],
+
+		// Diplomacy
+		"defeated": "The Celtic Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Greetings! I am Brennus of the warlike Celtic\npeople! My druids shall construct a huge stone\ncircle to honor this auspicious occasion!",
+
+		// AI_DIPLO_DECLARE_WAR_2: We have suffered your insolence for long enough!
+		"declaringWar": "We have suffered your insolence for long enough!",
+
+		// AI_DIPLO_HELP_REFUSED_STRONGER_4: Remember, what goes around comes around...
+		"attacked": "Remember, what goes around comes around...",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "We welcome our friend.",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "Speak your piece, and then be gone!",
+
+		// AI_DIPLO_FUR_OFFER_DEAL_3: We are offering you this trade. I suggest you take it.
+		"tradeRequest": "We are offering you this trade. I suggest you take it."
 	},
 
 	{
@@ -93,7 +215,28 @@
 			"P'yongsong", "Taejon", "Paegam", "Manp'o", "Kaesong", "Chonju", "Sariwon", "Suwon", "Haeju",
 			"Taegu", "Chinje", "Tokch'on", "Ch'ongfu", "Taegwon", "Sokch'o", "Hamhung", "Iri", "Huich'on",
 			"Namwon", "Kumgang", "Oijongbu"
-		]
+		],
+
+		// Diplomacy
+		"defeated": "The Korean Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Welcome! Deal faithfully with Korea and we will deal\nfaithfully with you. Betray us and your life will be both\nshort and full of excitement...",
+
+		// AI_DIPLO_DECLARE_WAR_6: Soon my numberless minions shall destroy you all!
+		"declaringWar": "Soon my numberless minions shall destroy you all!",
+
+		// AI_DIPLO_HELP_REFUSED_EQUAL_3: That's not very nice of you.
+		"attacked": "That's not very nice of you.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "We are honored by your visit. Let us speak of many important things.",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "Speak quickly. I have little time for your imbecilities.",
+
+		// AI_DIPLO_FR_OFFER_DEAL_5: My friend, can I tempt you with this offer?
+		"tradeRequest": "My friend, can I tempt you with this offer?"
 	},
 
 	{
@@ -125,7 +268,28 @@
 			"Kayseri", "Malatya", "Marsin", "Antalya", "Zonguldak", "Denizli", "Oidu", "Mugla", "Eskisehir",
 			"Inebolu", "Sinop", "Adana", "Tarsus", "Artuin", "Bodrum", "Eregli", "Silifke", "Sivas", "Amasya",
 			"Marmaris", "Oijongbu", "Trabzon", "Erzurum", "Urfa", "Izmit", "Afyon", "Bitlis"
-		]
+		],
+
+		// Diplomacy
+		"defeated": "The Ottoman Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "May the heavens rain down blessings upon you!\nI am Mehmed II, wise and benevolent ruler of Ottoman Empire!\nFeel free to begin showering me with\ntribute at your convenience!",
+
+		// AI_DIPLO_DECLARE_WAR_8: Fool! Now we shall destroy you!
+		"declaringWar": "Fool! Now we shall destroy you!",
+
+		// AI_DIPLO_HELP_REFUSED_STRONGER_3: As you will.
+		"attacked": "As you will.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Welcome. Let us eat figs and sip sherbet and discuss important things.",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "Speak quickly. Your voice has an unpleasant grating whine that is distasteful to listen to.",
+
+		// AI_DIPLO_FR_OFFER_DEAL_2: Our peace-loving people seek a fair trade with you. How about it?
+		"tradeRequest": "Our peace-loving people seek a fair trade with you. How about it?"
 	},
 
 	{
@@ -156,7 +320,28 @@
 			"Thingvellir", "Jorvik", "Lincoln", "Deoraby", "Stamford", "Dyflin", "Vadrejford", "Limerick", "Rowane",
 			"Konugard", "Holmgard", "Aldeigjuborg", "Kirkjuvagr", "Tynwald", "Leirvik", "Tinganes", "Kirkjubour",
 			"Brattahlid", "Vinland", "Thunderfall"
-		]
+		],
+
+		// Diplomacy
+		"defeated": "The Viking Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1: Ragnar doesn't have a greeting.
+		"introduction": "We usually take what we want, but in the name of our\ncontinued good relations I'll ask for it first.",
+
+		// AI_DIPLO_DECLARE_WAR_7: Time to die.
+		"declaringWar": "Time to die.",
+
+		// AI_DIPLO_HELP_REFUSED_EQUAL_5: You foolish person.
+		"attacked": "You foolish person.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Greetings, friend! Of all the decadent and vulnerable civilizations in the world, yours is one of my favorites!",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
+		"hateHello": "Speak quickly. You are stinking up my palace.",
+
+		// AI_DIPLO_FUR_OFFER_DEAL_1: I'm making you an offer you can't refuse.
+		"tradeRequest": "I'm making you an offer you can't refuse."
 	},
 
 	{
@@ -188,6 +373,27 @@
 			"Babanango", "Khangela", "Kwahlomendlini", "Hlobane", "Ethekwini", "Mlambongwenya", "Eziqwaqweni", "Emangweni",
 			"Isiphezi", "Masotsheni", "Mtunzini", "Nyakamubi", "Dumazulu", "Hlatikulu", "Mthonjaneni", "Empangeni", "Pongola",
 			"Tungela", "Kwamashu", "Ingwavuma", "Hluhluwe", "Mtubatuba", "Mhlahlandlela", "Mthatha", "Maseru", "Lobamba", "Qunu"
-		]
+		],
+
+		// Diplomacy
+		"defeated": "The Zulu Civilization has been destroyed!!!",
+
+		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
+		"introduction": "Greetings! The Zulu people always enjoy meeting vulnerable and undefended new civilizations!",
+
+		// USER_DIPLO_WAR_1: Your head would look good on the end of a pole.
+		"declaringWar": "Your head would look good on the end of a pole.",
+
+		// USER_DIPLO_WAR_RESPONSE_1: So it be.
+		"attacked": "So it be.",
+
+		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
+		"neutralHello": "Welcome. And how is that undefended civilization of your coming along?",
+
+		// AI_DIPLO_GREETINGS_ATT_FUR_11: Are you still around? I thought somebody wiped out your puny civilization years ago.
+		"hateHello": "Are you still around? I thought somebody wiped out your puny civilization years ago.",
+
+		// AI_DIPLO_FUR_OFFER_DEAL_4: Here's our offer. Take it or leave it.
+		"tradeRequest": "Here's our offer. Take it or leave it."
 	}
 ]
