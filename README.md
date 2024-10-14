@@ -1,4 +1,4 @@
-# Civ IV Warlords
+# Unciv Civ IV Warlords
 
 [Unciv](https://github.com/yairm210/unciv) mod for [Civilization IV: Warlords](https://civilization.fandom.com/wiki/Civilization_IV:_Warlords). Depends on the [Civ IV mod](https://github.com/yairm210/Unciv-IV-mod).
 
