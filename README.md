@@ -11,7 +11,7 @@
 5. Select Civ IV Warlords and download it
 6. Start a new game
 7. Select the "Civ IV" Ruleset
-8. Enable the "Civ IV Warlords" mod in Advanced Settings
+8. Enable the Civ IV Warlords Extension mod
 
 ## Credits
 
