@@ -127,7 +127,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 		"neutralHello": "So you have come? Excellent.\nIt always gives me pleasure to speak with one who is almost my equal.",
 
 		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
-		"hateHello": "This had better be good. I have no time for nonsense",
+		"hateHello": "This had better be good.\nI have no time for nonsense",
 
 		// AI_DIPLO_FR_OFFER_DEAL_6: Let's make a deal!
 		"tradeRequest": "Let's make a deal!"
@@ -139,8 +139,8 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Celtic people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
-		"outerColor": [243, 192, 16],
-		"innerColor": [0,0,0],
+		"outerColor": [250, 200, 39],
+		"innerColor": [22, 14, 4],
 		"uniques": [
 			"Starts with [Mysticism]",
 			"Starts with [Hunting]",
@@ -192,8 +192,8 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Korean people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
-		"outerColor": [70, 106, 250],
-		"innerColor": [255,255,255],
+		"outerColor": [55, 91, 227],
+		"innerColor": [230, 227, 228],
 		"uniques": [
 			"Starts with [Mysticism]",
 			"Starts with [Mining]",
@@ -245,8 +245,8 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Ottoman people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
-		"outerColor": [7, 96, 1],
-		"innerColor": [234, 233, 29],
+		"outerColor": [49, 126, 49],
+		"innerColor": [247, 250, 46],
 		"uniques": [
 			"Starts with [The Wheel]",
 			"Starts with [Agriculture]",
@@ -283,13 +283,13 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 		"attacked": "As you will.",
 
 		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
-		"neutralHello": "Welcome. Let us eat figs and sip sherbet and discuss important things.",
+		"neutralHello": "Welcome. Let us eat figs and sip\nsherbet and discuss important things.",
 
 		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
-		"hateHello": "Speak quickly. Your voice has an unpleasant grating whine that is distasteful to listen to.",
+		"hateHello": "Speak quickly. Your voice has an unpleasant\ngrating whine that is distasteful to listen to.",
 
 		// AI_DIPLO_FR_OFFER_DEAL_2: Our peace-loving people seek a fair trade with you. How about it?
-		"tradeRequest": "Our peace-loving people seek a fair trade with you. How about it?"
+		"tradeRequest": "Our peace-loving people seek a\nfair trade with you. How about it?"
 	},
 
 	{
@@ -298,8 +298,8 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Viking people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
-		"outerColor": [180, 152, 255],
-		"innerColor": [31, 24, 42],
+		"outerColor": [191, 165, 253],
+		"innerColor": [47, 42, 50],
 		"uniques": [
 			"Starts with [Fishing]",
 			"Starts with [Hunting]",
@@ -335,7 +335,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 		"attacked": "You foolish person.",
 
 		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
-		"neutralHello": "Greetings, friend! Of all the decadent and vulnerable civilizations in the world, yours is one of my favorites!",
+		"neutralHello": "Greetings, friend! Of all the decadent\nand vulnerable civilizations in the\nworld, yours is one of my favorites!",
 
 		// AI_DIPLO_GREETINGS_ATT_FUR_LEADER_[NAME]_1
 		"hateHello": "Speak quickly. You are stinking up my palace.",
@@ -350,8 +350,8 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Zulu people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
-		"outerColor": [255,255,0],
-		"innerColor": [0,0,0],
+		"outerColor": [253, 248, 63],
+		"innerColor": [9, 6, 3],
 		"uniques": [
 			"Starts with [Agriculture]",
 			"Starts with [Hunting]",
@@ -379,7 +379,7 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 		"defeated": "The Zulu Civilization has been destroyed!!!",
 
 		// AI_DIPLO_FIRST_CONTACT_LEADER_[NAME]_1
-		"introduction": "Greetings! The Zulu people always enjoy meeting vulnerable and undefended new civilizations!",
+		"introduction": "Greetings! The Zulu people always\nenjoy meeting vulnerable and undefended\nnew civilizations!",
 
 		// USER_DIPLO_WAR_1: Your head would look good on the end of a pole.
 		"declaringWar": "Your head would look good on the end of a pole.",
@@ -388,10 +388,10 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 		"attacked": "So it be.",
 
 		// AI_DIPLO_GREETINGS_ATT_FR_LEADER_[NAME]_1
-		"neutralHello": "Welcome. And how is that undefended civilization of your coming along?",
+		"neutralHello": "Welcome. And how is that undefended\ncivilization of your coming along?",
 
 		// AI_DIPLO_GREETINGS_ATT_FUR_11: Are you still around? I thought somebody wiped out your puny civilization years ago.
-		"hateHello": "Are you still around? I thought somebody wiped out your puny civilization years ago.",
+		"hateHello": "Are you still around? I thought somebody\nwiped out your puny civilization years ago.",
 
 		// AI_DIPLO_FUR_OFFER_DEAL_4: Here's our offer. Take it or leave it.
 		"tradeRequest": "Here's our offer. Take it or leave it."
