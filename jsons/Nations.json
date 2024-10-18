@@ -93,13 +93,13 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Starts with [Fishing]",
 			"Starts with [Mining]",
 
-			"Charismatic",
+			"Comment [Charismatic]",
 			"[+1 Happiness]",
 			"[+25]% XP gained from combat",
 			"[+1 Happiness] from every [Monument]",
 			"[+1 Happiness] from every [Broadcast Tower]",
 
-			"Financial",
+			"Comment [Financial]",
 			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
 			"[+100]% Production when constructing [Bank] buildings [in your cities]",
 		],
@@ -145,11 +145,11 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Starts with [Mysticism]",
 			"Starts with [Hunting]",
 
-			"Spiritual",
+			"Comment [Spiritual]",
 			// There is no anarchy when changing a civic
 			"[+100]% Production when constructing [Temple] buildings [in your cities]",
 
-			"Charismatic",
+			"Comment [Charismatic]",
 			"[+1 Happiness]",
 			"[+25]% XP gained from combat",
 			"[+1 Happiness] from every [Monument]",
@@ -198,11 +198,11 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Starts with [Mysticism]",
 			"Starts with [Mining]",
 
-			"Financial",
+			"Comment [Financial]",
 			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
 			"[+100]% Production when constructing [Bank] buildings [in your cities]",
 
-			"Protective",
+			"Comment [Protective]",
 			"All newly-trained [Archery] units [in your cities] receive the [Drill I] promotion",
 			"All newly-trained [Gunpowder] units [in your cities] receive the [Drill I] promotion",
 			"All newly-trained [Archery] units [in your cities] receive the [City Garrison I] promotion",
@@ -251,13 +251,13 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Starts with [The Wheel]",
 			"Starts with [Agriculture]",
 
-			"Expansive",
+			"Comment [Expansive]",
 			"Provides [+2] [Health] <in [City center] tiles>",
 			"[+25]% Production when constructing [Worker] units [in your cities]",
 			"[+100]% Production when constructing [Granary] buildings [in your cities]",
 			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
 
-			"Organized",
+			"Comment [Organized]",
 			"[+1 Gold] [in your cities]", // TODO: Civic upkeep reduced by 50 %
 			"[+100]% Production when constructing [Lighthouse] buildings [in your cities]",
 			"[+100]% Production when constructing [Factory] buildings [in your cities]",
@@ -304,13 +304,13 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Starts with [Fishing]",
 			"Starts with [Hunting]",
 
-			"Aggressive",
+			"Comment [Aggressive]",
 			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
 			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
 			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
 			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
 
-			"Financial",
+			"Comment [Financial]",
 			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
 			"[+100]% Production when constructing [Bank] buildings [in your cities]"
 		],
@@ -356,13 +356,13 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 			"Starts with [Agriculture]",
 			"Starts with [Hunting]",
 
-			"Aggressive",
+			"Comment [Aggressive]",
 			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
 			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
 			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
 			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
 
-			"Expansive",
+			"Comment [Expansive]",
 			"Provides [+2] [Health] <in [City center] tiles>",
 			"[+25]% Production when constructing [Worker] units [in your cities]",
 			"[+100]% Production when constructing [Granary] buildings [in your cities]",
