@@ -11,7 +11,7 @@
 		"uniques": [
 			// TODO: +1 Trade Route
 			"[+50]% [Gold] from Trade Routes",
-            "Provides [1] [Health] <in this city> <with [Clam]>",
+            "Provides [1] [Health] <in this city> <with [Pearls]>", // Clam in Civ 4, but Pearls here.
             "Provides [1] [Health] <in this city> <with [Crab]>",
             "Provides [1] [Health] <in this city> <with [Fish]>",
 			"Only available <in [Coastal] cities>"
