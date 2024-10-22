@@ -56,7 +56,7 @@
 		"strength": 6,
 		"movement": 1,
 		"cost": 40,
-		"requiredResource": "Copper",
+		"requiredResource": "Copper", // Requires Copper OR Iron
 		"requiredTech": "Iron Working",
 		"uniques": [
 			"Consumes [1] [Iron]",
@@ -114,7 +114,7 @@
 		"strength": 8,
 		"movement": 1,
 		"cost": 70,
-		"requiredTech": "Civil Service",
+		"requiredTech": "Civil Service", // TODO: Requires Copper OR Iron
 		"uniques": [
 			"Only available <after discovering [Machinery]>",
 			"Can upgrade to [Rifleman]",
@@ -134,7 +134,7 @@
 		"movement": 2,
 		"cost": 35,
 		"requiredTech": "Hunting",
-		"requiredResource": "Copper",
+		"requiredResource": "Copper", // TODO: Requires Copper OR Iron
 		"uniques": [
 			"Can upgrade to [Pikeman]",
 			"[+100]% Strength <vs [Mounted] units>",
