@@ -17,8 +17,7 @@
 			// Can bombard city defenses (-16%/turn)
 			// Immune to collateral damage from other Siege Units
 			// Cannot attack amphibiously
-			"Must set up to ranged attack",
-			"[-1] Sight"
+			"Must set up to ranged attack"
 		],
 		"attackSound": "throw"
 	},
@@ -31,9 +30,9 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 50,
-		"requiredResource": "Horses",
 		"requiredTech": "Horseback Riding",
 		"uniques": [
+			"Only available <with [Horses]>",
 			"Only available <after discovering [Archery]>",
 			"Can upgrade to [Knight]",
 			// Immune to first strikes
@@ -56,12 +55,21 @@
 		"strength": 6,
 		"movement": 1,
 		"cost": 40,
-		"requiredResource": "Copper", // Requires Copper OR Iron
 		"requiredTech": "Iron Working",
 		"uniques": [
-			"Consumes [1] [Iron]",
 			"Can upgrade to [Maceman]",
-			"[+10]% Strength <vs cities> <when attacking>"
+			"[+10]% Strength <vs cities> <when attacking>",
+			"Unavailable <without [Copper]> <without [Iron]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Copper...",
+				"link": "Resources/Copper"
+			},
+			{
+				"text": "...or Iron",
+				"link": "Resources/Iron"
+			}
 		],
 		"promotions": ["Guerrilla I"],
 		"attackSound": "nonmetalhit"
@@ -114,12 +122,23 @@
 		"strength": 8,
 		"movement": 1,
 		"cost": 70,
-		"requiredTech": "Civil Service", // TODO: Requires Copper OR Iron
+		"requiredTech": "Civil Service",
 		"uniques": [
 			"Only available <after discovering [Machinery]>",
 			"Can upgrade to [Rifleman]",
 			"[+25]% Strength <vs [Sword] units>",
-			"[+100]% Strength <vs cities>"
+			"[+100]% Strength <vs cities>",
+			"Unavailable <without [Copper]> <without [Iron]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Copper...",
+				"link": "Resources/Copper"
+			},
+			{
+				"text": "...or Iron",
+				"link": "Resources/Iron"
+			}
 		],
 		"promotions": ["Amphibious"],
 		"attackSound": "nonmetalhit"
@@ -134,11 +153,20 @@
 		"movement": 2,
 		"cost": 35,
 		"requiredTech": "Hunting",
-		"requiredResource": "Copper", // TODO: Requires Copper OR Iron
 		"uniques": [
 			"Can upgrade to [Pikeman]",
 			"[+100]% Strength <vs [Mounted] units>",
-			"Consumes [1] [Iron]"
+			"Unavailable <without [Copper]> <without [Iron]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Requires Copper...",
+				"link": "Resources/Copper"
+			},
+			{
+				"text": "...or Iron",
+				"link": "Resources/Iron"
+			}
 		],
 		"promotions": ["Mobility"],
 		"attackSound": "nonmetalhit"
