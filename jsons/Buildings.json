@@ -102,5 +102,277 @@
 			"[+2 Happiness] <after adopting [Nationhood]>",
 			"[-20]% maintenance costs <in this city>"
 		]
-	}
+	},
+
+	{
+		"name": "Mall",
+		"uniqueTo": "America",
+		"replaces": "Supermarket",
+		"cost": 150,
+		"food": 1,
+		"percentStatBonus": {"gold": 20},
+		"uniques": [
+            "Provides [1] [Health] <in this city> <with [Cattle]>",
+            "Provides [1] [Health] <in this city> <with [Deer]>",
+            "Provides [1] [Health] <in this city> <with [Sheep]>",
+            "Provides [1] [Health] <in this city> <with [Pig]>",
+
+			"[+1 Happiness] <with [Hit Singles]>",
+			"[+1 Happiness] <with [Hit Musicals]>",
+			"[+1 Happiness] <with [Hit Movies]>"
+		],
+        "requiredBuilding": "Grocer",
+		"requiredTech": "Refrigeration"
+	},
+
+	{
+		"name": "Madrassa",
+		"uniqueTo": "Arabia",
+		"replaces": "Library",
+		"culture": 4,
+		"percentStatBonus": {"science": 25},
+		"cost": 90,
+		"specialistSlots": {
+			"Scientist": 2,
+			"Priest": 2
+		},
+		"percentStatBonus": {"science": 25},
+		"requiredTech": "Writing"
+	},
+
+	{
+		"name": "Sacrificial Altar",
+		"uniqueTo": "Aztec",
+		"replaces": "Courthouse",
+		"cost": 90,
+		"uniques": [
+			"[-50]% maintenance cost for buildings [in this city]"
+			// TODO: -50% Anger duration from whipping
+			// TODO: +2 Espionage in BTS
+		],
+		"specialistSlots": {"Spy": 1},
+		"requiredTech": "Code of Laws"
+	},
+
+	{
+		"name": "Pavilion",
+		"uniqueTo": "China",
+		"replaces": "Theatre",
+		"cost": 50,
+		"specialistSlots": {"Artist": 2},
+		"culture": 3,
+		"percentStatBonus": {"culture": 25},
+		"uniques": [
+			// "[+1 Culture] per 10% Culture rate",
+			"[+1 Happiness] <with [Dyes]>"
+		],
+		"requiredTech": "Drama"
+	},
+
+	{
+		"name": "Obelisk",
+		"uniqueTo": "Egypt",
+		"replaces": "Monument",
+		"culture": 1,
+		"cost": 30,
+		"requiredTech": "Mysticism",
+		"specialistSlots": {"Priest": 2},
+		"uniques": [
+			"Obsolete with [Astronomy]"
+		]
+	},
+
+	{
+		"name": "Stock Exchange",
+		"uniqueTo": "England",
+		"replaces": "Bank",
+		"cost": 200,
+		"percentStatBonus": {"gold": 65},
+		"requiredTech": "Banking"
+	},
+
+	{
+		"name": "Salon",
+		"uniqueTo": "France",
+		"replaces": "Observatory",
+		"cost": 150,
+		"culture": 4, // 1 Free Artist
+		"science": 1, // 1 Free Artist
+		"greatPersonPoints": {"Great Artist": 3}, // 1 Free Artist
+		"percentStatBonus": {"science": 25},
+		"specialistSlots": {"Scientist": 1},
+		"requiredTech": "Astronomy"
+	},
+
+	{
+		"name": "Assembly Plant",
+		"uniqueTo": "Germany",
+		"replaces": "Factory",
+		"cost": 250,
+		"percentStatBonus": {"production": 25},
+		"specialistSlots": {"Engineer": 4},
+        "uniques": [
+			"Provides [-1] [Health] <in this city>",
+			"Provides [-2] [Health] <in this city> <with [Oil]>",
+			"Provides [-2] [Health] <in this city> <with [Coal]>",
+			"[+25]% [Production] [in this city]",
+			"[+25]% [Production] [in this city] <with [Power]>",
+			"[-50]% production cost <with [Coal]> <in this city>" // Builds 50% faster with Coal Coal (Civ4)
+		],
+		"requiredTech": "Assembly Line"
+	},
+
+	{
+		"name": "Odeon",
+		"uniqueTo": "Greece",
+		"replaces": "Colosseum",
+		"cost": 80,
+		"culture": 3,
+		"happiness": 2,
+		"requiredTech": "Construction",
+		"specialistSlots": {"Artist": 2},
+		"uniques": [
+			"[+1 Happiness] <with [Hit Singles]>"
+			// TODO: +1 Happiness per 20% Culture rate
+		]
+	},
+
+	{
+		"name": "Terrace",
+		"uniqueTo": "Inca",
+		"replaces": "Granary",
+		"cost": 60,
+		"culture": 2,
+		"uniques": [
+			"[50]% Food is carried over after population increases [in this city]",
+            "Provides [1] [Health] <in this city> <with [Corn]>",
+            "Provides [1] [Health] <in this city> <with [Rice]>",
+            "Provides [1] [Health] <in this city> <with [Wheat]>"
+        ],
+		"requiredTech": "Pottery"
+	},
+
+	{
+		"name": "Mausoleum",
+		"uniqueTo": "India",
+		"replaces": "Jail",
+		"cost": 120,
+		"happiness": 2,
+		"specialistSlots": {"Spy": 2},
+		"uniques": [
+			"[+7]% [Happiness] [in this city] <when at war>" // -25% war weariness
+			// +4 Espionage (BtS)
+			// +50% Espionage (BtS)
+		],
+		"requiredTech": "Constitution"
+	},
+
+	{
+		"name": "Shale Plant",
+		"uniqueTo": "Japan",
+		"replaces": "Coal Plant",
+		"cost": 150,
+		"requiredBuilding": "Factory",
+		"percentStatBonus": {"production": 10},
+		"uniques": [
+            "Power Plant",
+            "Provides [-4] [Health] <in this city>",
+            "Provides [1] [Power] <in this city>",
+            "Only available <in cities without a [Power Plant]>"
+		],
+		"requiredTech": "Assembly Line"
+	},
+
+	{
+		"name": "Mint",
+		"uniqueTo": "Mali",
+		"replaces": "Forge",
+		"cost": 120,
+		"specialistSlots": {"Engineer": 1},
+		"percentStatBonus": {
+			"production": 25,
+			"gold": 10
+		},
+		"requiredTech": "Metal Casting",
+		"uniques": [
+			"Provides [-1] [Health] <in this city>",
+            "[+1 Happiness] <with [Gold Ore]>",
+			"[+1 Happiness] <with [Silver]>",
+			"[+1 Happiness] <with [Gems]>"
+		]
+	},
+	{
+		"name": "Ger",
+		"uniqueTo": "Mongolia",
+		"replaces": "Stable",
+		"cost": 60,
+		"uniques": [
+			"New [Mounted] units start with [4] Experience [in this city]",
+			"Obsolete with [Satellites]" // Rocketry, but Advancd Flight with BTS
+		],
+		"requiredTech": "Horseback Riding"
+	},
+
+	{
+		"name": "Apothecary",
+		"uniqueTo": "Persia",
+		"replaces": "Grocer",
+		"cost": 150,
+		"specialistSlots": {"Merchant": 2},
+		"percentStatBonus": {"gold": 25},
+		"uniques": [
+			"Provides [2] [Health] <in this city>",
+			"Only available <after discovering [Currency]>",
+            "Provides [1] [Health] <with [Sugar]> <in this city>",
+            "Provides [1] [Health] <with [Bananas]> <in this city>",
+            "Provides [1] [Health] <with [Spices]> <in this city>",
+            "Provides [1] [Health] <with [Wine]> <in this city>"
+		],
+		"requiredTech": "Guilds"
+	},
+
+	{
+		"name": "Forum",
+		"uniqueTo": "Rome",
+		"replaces": "Market",
+		"cost": 150,
+		"specialistSlots": {"Merchant": 2},
+		"percentStatBonus": {"gold": 25},
+		"happiness":1,
+		"uniques": [
+			"[+25]% Great Person generation [in this city]",
+			"[+1 Happiness] <with [Furs]>",
+			"[+1 Happiness] <with [Ivory]>",
+			"[+1 Happiness] <with [Silk]>",
+			"[+1 Happiness] <with [Whales]>"
+		],
+		"requiredTech": "Currency"
+	},
+
+	{
+		"name": "Citadel",
+		"uniqueTo": "Spain",
+		"replaces": "Castle",
+		"cost": 100,
+		"culture": 1,
+		"cityStrength": 1,
+		"requiredTech": "Engineering",
+		"requiredBuilding": "Walls",
+		"uniques": [
+			"[+5]% [Gold] from Trade Routes", // "+1 trade route",
+			"[+5]% [Culture] from Trade Routes", // "+1 trade route",
+			// "+50% defense"
+			// +25% Espionage (BTS)
+			"[-50]% production cost <with [Stone]>",
+			//"Obsolete with [Economics]", (Except defensive bonus)
+			"[+50]% Strength for cities <in this city> <vs [Sword] units>",
+			"[+50]% Strength for cities <in this city> <vs [Archery] units>",
+			"[+50]% Strength for cities <in this city> <vs [Mounted] units>",
+			"[+50]% Strength for cities <in this city> <vs [Armored] units>",
+			"[+50]% Strength for cities <in this city> <vs [Air] units>",
+			"[+50]% Strength for cities <in this city> <vs [Water] units>",
+			"[+50]% Strength for cities <in this city> <vs [Siege] units>",
+			"New [Siege] units start with [4] Experience [in this city]"
+		]
+	},
 ]
