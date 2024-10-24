@@ -136,7 +136,6 @@
 			"Scientist": 2,
 			"Priest": 2
 		},
-		"percentStatBonus": {"science": 25},
 		"requiredTech": "Writing"
 	},
 
@@ -374,5 +373,5 @@
 			"[+50]% Strength for cities <in this city> <vs [Siege] units>",
 			"New [Siege] units start with [4] Experience [in this city]"
 		]
-	},
+	}
 ]
