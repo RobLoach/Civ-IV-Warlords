@@ -50,7 +50,7 @@
 	{
 		"name": "Gallic Warrior",
 		"unitType": "Sword",
-		"uniqueTo": "Celtic",
+		"uniqueTo": "Celts",
 		"replaces": "Swordsman",
 		"strength": 6,
 		"movement": 1,
@@ -99,7 +99,7 @@
 	{
 		"name": "Janissary",
 		"unitType": "Gunpowder",
-		"uniqueTo": "Ottoman",
+		"uniqueTo": "The Ottomans",
 		"replaces": "Musketman",
 		"strength": 9,
 		"movement": 1,

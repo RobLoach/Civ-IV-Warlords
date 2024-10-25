@@ -135,8 +135,9 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	},
 
 	{
-		"name": "Celtic",
+		"name": "Celts", // Celtic in Civ IV
 		"leaderName": "Brennus",
+		"adjective": ["celtic"],
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Celtic people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",
 
@@ -243,7 +244,8 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 	},
 
 	{
-		"name": "Ottoman",
+		"name": "The Ottomans", // Ottoman in Civ IV
+		"adjective": ["Ottoman"],
 		"leaderName": "Mehmed II",
 
 		"startIntroPart1": "The sun rises. Since time immemorial, the Ottoman people have lived a nomadic life. After years of wandering, they are ready to settle down and found your first city.\n\nYour people have vested absolute power in you, trusting that you can build a Civilization to stand the test of time!",

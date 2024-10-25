@@ -20,7 +20,7 @@
 
 	{
 		"name": "Dun",
-		"uniqueTo": "Celtic",
+		"uniqueTo": "Celts",
 		"replaces": "Walls",
 		"cost": 50,
 		"uniques": [
@@ -58,7 +58,7 @@
 
 	{
 		"name": "Hammam",
-		"uniqueTo": "Ottoman",
+		"uniqueTo": "The Ottomans",
 		"replaces": "Aqueduct",
 		"cost": 100,
 		"happiness": 2,
@@ -141,7 +141,7 @@
 
 	{
 		"name": "Sacrificial Altar",
-		"uniqueTo": "Aztec",
+		"uniqueTo": "Aztecs",
 		"replaces": "Courthouse",
 		"cost": 90,
 		"uniques": [
