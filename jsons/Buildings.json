@@ -7,6 +7,7 @@
 		"uniqueTo": "Carthage",
 		"replaces": "Harbor",
 		"cost": 100,
+		"maintenance": 1,
 		"uniques": [
 			// TODO: +1 Trade Route
 			"[+50]% [Gold] from Trade Routes",
@@ -23,6 +24,7 @@
 		"uniqueTo": "Celtic",
 		"replaces": "Walls",
 		"cost": 50,
+		"maintenance": 1,
 		"uniques": [
 			// +50% defense Defense (except vs. Gunpowder Units)
 			"[+50]% Strength for cities <in this city> <vs [Sword] units>",
@@ -46,6 +48,7 @@
 		"uniqueTo": "Korea",
 		"replaces": "University",
 		"cost": 200,
+		"maintenance": 1,
 		"culture": 3,
 		"percentStatBonus": {"science": 35},
 		"uniques": [
@@ -61,6 +64,7 @@
 		"uniqueTo": "Ottoman",
 		"replaces": "Aqueduct",
 		"cost": 100,
+		"maintenance": 1,
 		"happiness": 2,
 		"requiredTech": "Mathematics",
 		"percentStatBonus": {"science": 35},
@@ -75,6 +79,7 @@
 		"uniqueTo": "Viking",
 		"replaces": "Lighthouse",
 		"cost": 60,
+		"maintenance": 1,
 		"requiredTech": "Sailing",
 		"uniques": [
 			"All newly-trained [Melee Water] units [in this city] receive the [Navigation I] promotion",
@@ -95,6 +100,7 @@
 		"uniqueTo": "Zulu",
 		"replaces": "Barracks",
 		"cost": 60,
+		"maintenance": 0,
 		"requiredTech": "Sailing",
 		"uniques": [
 			"[-50]% production cost <for [Zulu] Civilizations>",
@@ -109,6 +115,7 @@
 		"uniqueTo": "America",
 		"replaces": "Supermarket",
 		"cost": 150,
+		"maintenance": 1,
 		"food": 1,
 		"percentStatBonus": {"gold": 20},
 		"uniques": [
@@ -132,6 +139,7 @@
 		"culture": 4,
 		"percentStatBonus": {"science": 25},
 		"cost": 90,
+		"maintenance": 1,
 		"specialistSlots": {
 			"Scientist": 2,
 			"Priest": 2
@@ -158,6 +166,7 @@
 		"uniqueTo": "China",
 		"replaces": "Theatre",
 		"cost": 50,
+		"maintenance": 1,
 		"specialistSlots": {"Artist": 2},
 		"culture": 3,
 		"percentStatBonus": {"culture": 25},
@@ -195,6 +204,7 @@
 		"uniqueTo": "France",
 		"replaces": "Observatory",
 		"cost": 150,
+		"maintenance": 1,
 		"culture": 4, // 1 Free Artist
 		"science": 1, // 1 Free Artist
 		"greatPersonPoints": {"Great Artist": 3}, // 1 Free Artist
@@ -208,6 +218,7 @@
 		"uniqueTo": "Germany",
 		"replaces": "Factory",
 		"cost": 250,
+		"maintenance": 1,
 		"percentStatBonus": {"production": 25},
 		"specialistSlots": {"Engineer": 4},
         "uniques": [
@@ -226,6 +237,7 @@
 		"uniqueTo": "Greece",
 		"replaces": "Colosseum",
 		"cost": 80,
+		"maintenance": 1,
 		"culture": 3,
 		"happiness": 2,
 		"requiredTech": "Construction",
@@ -241,6 +253,7 @@
 		"uniqueTo": "Inca",
 		"replaces": "Granary",
 		"cost": 60,
+		"maintenance": 1,
 		"culture": 2,
 		"uniques": [
 			"[50]% Food is carried over after population increases [in this city]",
@@ -256,6 +269,7 @@
 		"uniqueTo": "India",
 		"replaces": "Jail",
 		"cost": 120,
+		"maintenance": 1,
 		"happiness": 2,
 		"specialistSlots": {"Spy": 2},
 		"uniques": [
@@ -271,6 +285,7 @@
 		"uniqueTo": "Japan",
 		"replaces": "Coal Plant",
 		"cost": 150,
+		"maintenance": 1,
 		"requiredBuilding": "Factory",
 		"percentStatBonus": {"production": 10},
 		"uniques": [
@@ -287,6 +302,7 @@
 		"uniqueTo": "Mali",
 		"replaces": "Forge",
 		"cost": 120,
+		"maintenance": 1,
 		"specialistSlots": {"Engineer": 1},
 		"percentStatBonus": {
 			"production": 25,
@@ -317,6 +333,7 @@
 		"uniqueTo": "Persia",
 		"replaces": "Grocer",
 		"cost": 150,
+		"maintenance": 1,
 		"specialistSlots": {"Merchant": 2},
 		"percentStatBonus": {"gold": 25},
 		"uniques": [
@@ -335,6 +352,7 @@
 		"uniqueTo": "Rome",
 		"replaces": "Market",
 		"cost": 150,
+		"maintenance": 1,
 		"specialistSlots": {"Merchant": 2},
 		"percentStatBonus": {"gold": 25},
 		"happiness":1,
@@ -353,6 +371,7 @@
 		"uniqueTo": "Spain",
 		"replaces": "Castle",
 		"cost": 100,
+		"maintenance": 1,
 		"culture": 1,
 		"cityStrength": 1,
 		"requiredTech": "Engineering",
