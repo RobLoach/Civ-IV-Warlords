@@ -1,0 +1,84 @@
+[
+	// Warlords
+
+	{
+		"name": "Leadership",
+		"uniques": [
+			// TODO: Requires Great General
+			"[+100]% XP gained from combat"
+		],
+		"outerColor": [12, 74, 146],
+		"innerColor": [219, 152, 13],
+		"civilopediaText": [
+			{
+				"text": "Great General",
+				"link": "Units/Great General"
+			}
+		]
+	},
+
+	{
+		"name": "Morale",
+		"uniques": [
+			// TODO: Requires Great General
+			"[1] Movement"
+		],
+		"outerColor": [12, 74, 146],
+		"innerColor": [219, 152, 13],
+		"civilopediaText": [
+			{
+				"text": "Great General",
+				"link": "Units/Great General"
+			}
+		]
+	},
+
+	{
+		"name": "Medic III",
+		"uniques": [
+			// TODO: Requires Great General
+			"All adjacent units heal [+15] HP when healing" // Heal units in same tile +10%/turn
+		],
+		"outerColor": [12, 74, 146],
+		"innerColor": [219, 152, 13],
+		"civilopediaText": [
+			{
+				"text": "Great General",
+				"link": "Units/Great General"
+			}
+		]
+	},
+
+	{
+		"name": "Tactics",
+		"uniques": [
+			// TODO: Requires Great General
+			"Withdraws before melee combat <with [30]% chance>"
+		],
+		"outerColor": [12, 74, 146],
+		"innerColor": [219, 152, 13],
+		"civilopediaText": [
+			{
+				"text": "Great General",
+				"link": "Units/Great General"
+			}
+		]
+	},
+
+	{
+		"name": "Combat VI",
+		"prerequisites": ["Combat V"],
+		"uniques": [
+			// TODO: Requires Great General
+			"[+25]% Strength"
+		],
+		"outerColor": [12, 74, 146],
+		"innerColor": [219, 152, 13],
+		"civilopediaText": [
+			{
+				"text": "Great General",
+				"link": "Units/Great General"
+			}
+		]
+	}
+]
