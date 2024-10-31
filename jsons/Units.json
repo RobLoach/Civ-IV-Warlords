@@ -118,7 +118,7 @@
 		"name": "Berserker",
 		"unitType": "Sword",
 		"uniqueTo": "Viking",
-		"replaces": "Musketman",
+		"replaces": "Maceman",
 		"strength": 8,
 		"movement": 1,
 		"cost": 70,
