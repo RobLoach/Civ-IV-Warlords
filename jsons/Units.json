@@ -76,7 +76,7 @@
 	},
 
 	{
-		"name": "Hwacha",
+		"name": "Hwach'a", // Named "Hwacha" in Civ IV
 		"unitType": "Siege",
 		"uniqueTo": "Korea",
 		"replaces": "Catapult",
