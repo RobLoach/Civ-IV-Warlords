@@ -89,20 +89,11 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [218, 103, 9],
 		"innerColor": [244, 241, 246],
-		"uniqueName": "Charismatic and Financial",
 		"uniques": [
+			"Charismatic",
+			"Financial",
 			"Starts with [Fishing]",
-			"Starts with [Mining]",
-
-			//"Comment [Charismatic]",
-			"[+1 Happiness]",
-			"[+25]% XP gained from combat",
-			"[+1 Happiness] from every [Monument]",
-			"[+1 Happiness] from every [Broadcast Tower]",
-
-			//"Comment [Financial]",
-			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
-			"[+100]% Production when constructing [Bank] buildings [in your cities]",
+			"Starts with [Mining]"
 		],
 		"cities": [
 			"Carthage", "Utica", "Hadrumetum", "Hippo", "Kerkouane", "Leptis", "Thapsus", "Sicca", "Thaenae",
@@ -142,20 +133,11 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [250, 200, 39],
 		"innerColor": [22, 14, 4],
-		"uniqueName": "Spiritual and Charismatic",
 		"uniques": [
+			"Spiritual",
+			"Charismatic",
 			"Starts with [Mysticism]",
-			"Starts with [Hunting]",
-
-			//"Comment [Spiritual]",
-			// There is no anarchy when changing a civic
-			"[+100]% Production when constructing [Temple] buildings [in your cities]",
-
-			//"Comment [Charismatic]",
-			"[+1 Happiness]",
-			"[+25]% XP gained from combat",
-			"[+1 Happiness] from every [Monument]",
-			"[+1 Happiness] from every [Broadcast Tower]"
+			"Starts with [Hunting]"
 		],
 		"cities": [
 			"Bibracte", "Vienne", "Tolosa", "Gergovia", "Camulodunum", "Verlamion", "Durnovaria", "Isca",
@@ -196,22 +178,11 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [55, 91, 227],
 		"innerColor": [230, 227, 228],
-		"uniqueName": "Financial and Protective",
 		"uniques": [
+			"Financial",
+			"Protective",
 			"Starts with [Mysticism]",
-			"Starts with [Mining]",
-
-			//"Comment [Financial]",
-			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
-			"[+100]% Production when constructing [Bank] buildings [in your cities]",
-
-			//"Comment [Protective]",
-			"All newly-trained [Archery] units [in your cities] receive the [Drill I] promotion",
-			"All newly-trained [Gunpowder] units [in your cities] receive the [Drill I] promotion",
-			"All newly-trained [Archery] units [in your cities] receive the [City Garrison I] promotion",
-			"All newly-trained [Gunpowder] units [in your cities] receive the [City Garrison I] promotion",
-			"[+100]% Production when constructing [Walls] buildings [in your cities]",
-			"[+100]% Production when constructing [Castle] buildings [in your cities]"
+			"Starts with [Mining]"
 		],
 		"cities": [
 			"Seoul", "P'yongyang", "Wonsan", "Pusan", "Namp'o", "Cheju", "Hyangsan", "Ulsan", "Inch'on",
@@ -250,22 +221,11 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [49, 126, 49],
 		"innerColor": [247, 250, 46],
-		"uniqueName": "Expansive and Organized",
 		"uniques": [
+			"Organized",
+			"Expansive",
 			"Starts with [The Wheel]",
-			"Starts with [Agriculture]",
-
-			//"Comment [Expansive]",
-			"Provides [+2] [Health] <in [City center] tiles>",
-			"[+25]% Production when constructing [Worker] units [in your cities]",
-			"[+100]% Production when constructing [Granary] buildings [in your cities]",
-			"[+100]% Production when constructing [Harbor] buildings [in your cities]",
-
-			//"Comment [Organized]",
-			"[+1 Gold] [in your cities]", // TODO: Civic upkeep reduced by 50 %
-			"[+100]% Production when constructing [Lighthouse] buildings [in your cities]",
-			"[+100]% Production when constructing [Factory] buildings [in your cities]",
-			"[+100]% Production when constructing [Courthouse] buildings [in your cities]"
+			"Starts with [Agriculture]"
 		],
 		"cities": [
 			"Istanbul", "Edirne", "Ankara", "Bursa", "Konya", "Samsun", "Gaziantep", "Diyarbakir", "Izmir",
@@ -304,20 +264,11 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [191, 165, 253],
 		"innerColor": [47, 42, 50],
-		"uniqueName": "Aggressive and Financial",
 		"uniques": [
+			"Aggressive",
+			"Financial",
 			"Starts with [Fishing]",
-			"Starts with [Hunting]",
-
-			//"Comment [Aggressive]",
-			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
-			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
-			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
-			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
-
-			//"Comment [Financial]",
-			"[+1 Gold] [in your cities]", // +1 Coin on squares with 2 or more Coin
-			"[+100]% Production when constructing [Bank] buildings [in your cities]"
+			"Starts with [Hunting]"
 		],
 		"cities": [
 			"Nidaros", "Uppsala", "Haithabu", "Birka", "Bjorgvin", "Jelling", "Roskilde", "Tonsberg", "Sigtuna",
@@ -357,22 +308,11 @@ Sid Meier's Civilization IV Warlords/Warlords/Assets/XML/Text/CIV4GameText_Warlo
 
 		"outerColor": [253, 248, 63],
 		"innerColor": [9, 6, 3],
-		"uniqueName": "Aggressive and Expansive",
 		"uniques": [
+			"Aggressive",
+			"Expansive",
 			"Starts with [Agriculture]",
-			"Starts with [Hunting]",
-
-			//"Comment [Aggressive]",
-			"All newly-trained [Sword] units [in your cities] receive the [Combat I] promotion",
-			"All newly-trained [Gunpowder] units [in your cities] receive the [Combat I] promotion",
-			"[+100]% Production when constructing [Barracks] buildings [in your cities]",
-			"[+100]% Production when constructing [Drydock] buildings [in your cities]",
-
-			//"Comment [Expansive]",
-			"Provides [+2] [Health] <in [City center] tiles>",
-			"[+25]% Production when constructing [Worker] units [in your cities]",
-			"[+100]% Production when constructing [Granary] buildings [in your cities]",
-			"[+100]% Production when constructing [Harbor] buildings [in your cities]"
+			"Starts with [Hunting]"
 		],
 		"cities": [
 			"Ulundi", "Umgungundlovu", "Nobamba", "Bulawayo", "Kwadukuza", "Nongoma", "Ondini", "Nodwengu", "Ndondakusuka",
